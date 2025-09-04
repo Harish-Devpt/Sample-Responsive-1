@@ -1,0 +1,201 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    display: flex;  
+    height: 100%;
+    width: 100%;
+    background-color: #f80000;
+}
+
+
+#left{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+}
+
+#text h1{
+
+    font-size: 6vh;
+}
+
+
+#text p{
+
+    opacity: .5;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 0 188px;
+}
+
+#text a{
+
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: #3c00e2;
+}
+
+
+
+
+#right #top{
+display: flex;
+    width: 100%;
+    height: 50%;
+    background-color:tan;
+}
+
+#tleft{
+    position: relative;
+color: #fff;
+font-family: "Gilroy";
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1729180253343-12fdbd236c81?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+#tleft h1{
+position: absolute;
+    font-size: 70px;
+    left: 10%;
+    bottom: 30%;
+
+}
+
+
+#tleft h2{
+    position: absolute;
+        font-size: 70px;
+        left: 10%;
+        bottom: 20%;
+    
+    }
+
+
+#tright{
+
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1729275146014-6562ca176e10?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#right #btm{
+
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1465189684280-6a8fa9b19a7a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media(max-width: 500px){
+
+#main{
+
+    flex-direction: column;
+}
+
+
+#left{
+
+    width: 100%;
+}
+
+#text h1{
+
+
+    font-size: 9vw;
+
+
+
+}
+
+
+
+#text p{
+
+
+    font-size: 2.7vw;
+    padding: 20px 60px;
+
+
+
+}
+
+
+
+#text a{
+
+
+    font-size: 3.7vw;
+   
+
+
+
+}
+
+
+#right {
+    width: 100%;
+
+}
+
+
+#top #tleft h1 {
+
+    font-size:3em;
+
+
+
+
+} 
+
+
+
+#top #tleft h2 {
+
+    font-size:3em;
+
+
+
+
+} 
+
+}
+
+
+
